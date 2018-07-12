@@ -19,10 +19,10 @@ import com.kdgohokar.statistics.vo.Transaction;
 
 import lombok.extern.slf4j.Slf4j;
 
+@Slf4j
 @RestController
 @RequestMapping("/transactions")
-@Slf4j
-public class TransactionsController implements AbstractController {
+public class TransactionsController implements Controller {
 
 	@Autowired
 	private TransactionsService service;

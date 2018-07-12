@@ -1,6 +1,6 @@
 package com.kdgohokar.statistics.validator;
 
-import static com.kdgohokar.statistics.util.StatisticsUtil.TIME_LIMIT_IN_SECONDS;
+import static com.kdgohokar.statistics.util.StatisticsConstants.TIME_LIMIT_IN_SECONDS;
 
 import java.time.Duration;
 import java.time.Instant;
@@ -16,6 +16,7 @@ import com.kdgohokar.statistics.vo.Transaction;
  * Validator class for Transaction validation.
  *
  */
+
 @Component
 public class TransactionValidator implements Validator {
 

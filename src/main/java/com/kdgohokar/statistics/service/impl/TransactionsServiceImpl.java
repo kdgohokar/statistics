@@ -9,6 +9,11 @@ import com.kdgohokar.statistics.vo.Transaction;
 
 import lombok.extern.slf4j.Slf4j;
 
+/**
+ * @author kirangohokar on 12-07-2018
+ * The implementation class for TransactionsService
+ */
+
 @Slf4j
 @Service
 public class TransactionsServiceImpl implements TransactionsService {

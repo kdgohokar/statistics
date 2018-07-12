@@ -8,6 +8,11 @@ import com.kdgohokar.statistics.vo.Transaction;
  */
 public interface TransactionsService {
 	
+	/**
+	 * Create or add valid transaction to the cache
+	 * @param transaction
+	 * @return {@code boolean}
+	 */
 	boolean createTransaction(Transaction transaction);
 
 }

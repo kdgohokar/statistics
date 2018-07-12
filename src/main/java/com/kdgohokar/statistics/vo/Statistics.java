@@ -11,6 +11,7 @@ import lombok.Data;
  * @author kirangohokar on 12-07-2018
  * Statistics VO
  */
+
 @Data
 @Builder
 @AllArgsConstructor

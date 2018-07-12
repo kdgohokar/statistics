@@ -4,7 +4,11 @@ import java.util.stream.Collectors;
 
 import org.springframework.validation.BindingResult;
 
-public interface AbstractController {
+/**
+ * @author kirangohokar
+ * 
+ */
+public interface Controller {
 
 	default String stringifyErrors(BindingResult result) {
 		return result.getFieldErrors()
