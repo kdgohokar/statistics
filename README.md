@@ -14,7 +14,8 @@ Real-time statistics for transactions from the last 60 seconds.
 	      Failure = HttpStatus NO_CONTENT - 204
 
 2. GET /statistics
-   response :        ```json
+   response :
+   ```
                       {
 			"sum": 0,
 			"avg": 0,
