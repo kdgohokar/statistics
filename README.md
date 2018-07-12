@@ -8,22 +8,14 @@ Real-time statistics for transactions from the last 60 seconds.
 
 ## Endpoints:
 1. POST /transactions
-   Content-Type : application/json
-   body : ```{"amount":100.0, "timestamp": 1531430212922}```
-   response : Success = HttpStatus CREATED - 201
-	      Failure = HttpStatus NO_CONTENT - 204
+- Content-Type : application/json
+- body : ```{"amount":100.0, "timestamp": 1531430212922}```
+- response :
+	*Success = HttpStatus CREATED - 201
+	*Failure = HttpStatus NO_CONTENT - 204
 
 2. GET /statistics
-   response :
-   ```
-                      {
-			"sum": 0,
-			"avg": 0,
-    			"max": "-Infinity",
-    			"min": "Infinity",
-    			"count": 0
-		      }
-			 ``` 
+- response : ```{ "sum": 0, "avg": 0, "max": "-Infinity", "min": "Infinity", "count": 0}``` 
 
 ## To Run
 - Run StatisticsApplication.java
