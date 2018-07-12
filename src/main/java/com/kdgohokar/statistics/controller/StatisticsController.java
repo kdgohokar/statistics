@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.kdgohokar.statistics.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
