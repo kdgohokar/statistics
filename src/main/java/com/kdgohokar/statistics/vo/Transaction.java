@@ -3,6 +3,7 @@ package com.kdgohokar.statistics.vo;
 import javax.validation.constraints.NotNull;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -11,6 +12,7 @@ import lombok.NoArgsConstructor;
  * Transaction VO
  */
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class Transaction {
